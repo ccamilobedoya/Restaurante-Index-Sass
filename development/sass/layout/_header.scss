@@ -33,6 +33,14 @@
 }
 .header-title {
   font-family: $josefin;
-  font-size: 6em;
+  font-size: 4em;
   color: white;
+}
+.header-subtitle {
+  font-family: $josefin;
+  font-size: 1.5em;
+  color: #e4e4e4;
+}
+.after-header-padding {
+  padding-top: 100vh;
 }
