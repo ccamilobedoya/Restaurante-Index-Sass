@@ -1,0 +1,28 @@
+.navibar {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  @include transition(height 0.4s, background-color 0.4s, border 0.4s);
+  @include transform(translateZ(0));
+
+  .navibar-item {
+    padding: 15px;
+  }
+}
+.navibar-small {
+  height: 60px;
+  background-color: white;
+  @include box-shadow(0,2px,25px,-1px, rgba(0, 0, 0, 0.66));
+  border: 4px solid $p2c2;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
