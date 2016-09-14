@@ -23,7 +23,7 @@
   top: 0;
   left: 0;
   z-index: -1;
-  background: url("/img/restaurant-village-germany-chairs.jpg");
+  background: url("/img/street-view-of-a-coffee-terrace-with-tables-and-chairs.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: auto auto;
@@ -33,14 +33,26 @@
 }
 .header-title {
   font-family: $josefin;
-  font-size: 4em;
+  font-size: 3.4em;
   color: white;
+  margin: 0;
 }
 .header-subtitle {
   font-family: $josefin;
-  font-size: 1.5em;
-  color: #e4e4e4;
+  font-size: 1.3em;
+  color: #eeeeee;
 }
-.after-header-padding {
-  padding-top: 100vh;
+.header-text-panel {
+  background-color: rgba(0, 0, 0, 0.23);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+
+  hr {
+    margin: 0 0 8px 0;
+    width: 70%;
+    border: 0;
+    height: 1px;
+    background: rgba(37, 37, 37, 0.12);
+  }
 }
