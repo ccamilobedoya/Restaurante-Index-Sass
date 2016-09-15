@@ -10,6 +10,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-family: $josefin;
   @include transition(height 0.4s, background-color 0.4s, border 0.4s);
   @include transform(translateZ(0));
 
@@ -19,7 +20,11 @@
     a {
       text-decoration: none;
       color: $p2c1;
-      @include transition(color 0.4s);
+      font-size: 1.2em;
+      @include transition(color 0.4s, font-size 0.4s);
+      &:hover {
+        color: $p2c2;
+      }
     }
     .logo {
       width: 70px;
@@ -43,6 +48,10 @@
     a {
       text-decoration: none;
       color: $p2c5;
+      font-size: 1em;
+      &:hover {
+        color: $p2c4;
+      }
     }
     .logo {
       width: 45px;

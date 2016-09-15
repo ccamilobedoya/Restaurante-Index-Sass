@@ -3,10 +3,27 @@
 body {
   min-width: 320px;
   font-family: $lato;
+  color: $p2c1;
 }
-
 .content {
   position: relative;
   background-color: white;
   //top: -20vh;
+}
+.centered-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  padding: 35px;
+}
+.bg-c1 {
+  background-color: $p2c5;
+}
+.bg-c2 {
+  background-color: $p2c4;
+}
+.bg-c4 {
+  background-color: $p2c2;
 }
