@@ -4776,7 +4776,7 @@ p {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url("./img/street-view-of-a-coffee-terrace-with-tables-and-chairs.jpg");
+  background: url("/img/street-view-of-a-coffee-terrace-with-tables-and-chairs.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: auto auto; }
