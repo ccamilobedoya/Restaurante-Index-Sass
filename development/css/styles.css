@@ -1572,7 +1572,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   color: #5cb85c; }
 
 .has-success .form-control-success {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='
+  ' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E"); }
 
 .has-warning .form-control-feedback,
 .has-warning .form-control-label,
@@ -4775,7 +4776,7 @@ p {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url("/img/street-view-of-a-coffee-terrace-with-tables-and-chairs.jpg");
+  background: url("../img/street-view-of-a-coffee-terrace-with-tables-and-chairs.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: auto auto; }
