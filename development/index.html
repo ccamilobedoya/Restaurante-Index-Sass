@@ -7,20 +7,36 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="vendor/normalize-css/normalize.css" />
     <!-- endbower -->
-    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="vendor/bootstrap/d|ist/css/bootstrap.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
   </head>
 
   <div class="navibar">
-      <div class="navibar-item">
-        <a href="#">Algo</a>
+    <div class="dropdown navibar-item">
+      <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Buscar
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="https://restaurante-app.herokuapp.com/busqueda">Búsqueda</a>
+        <a class="dropdown-item" href="https://restaurante-app.herokuapp.com/busqueda_avanzada">Búsqueda Avanzada</a>
       </div>
-      <div class="navibar-item">
-        <a href="#"><img src="/img/Logo.svg" alt="" class="logo"/></a>
+    </div>
+    <!--<div class="navibar-item">
+      <a href="https://restaurante-app.herokuapp.com/cliente">Registro</a>
+    </div> -->
+    <div class="navibar-item">
+      <a href="#"><img src="/img/Logo.svg" alt="" class="logo"/></a>
+    </div>
+    <div class="dropdown navibar-item">
+      <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Registrar
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="https://restaurante-app.herokuapp.com/cliente">Registrar Cliente</a>
+        <a class="dropdown-item" href="https://restaurante-app.herokuapp.com/registrar-restaurante">Registrar Restaurante</a>
+        <a class="dropdown-item" href="https://restaurante-app.herokuapp.com/registrar-franchise">Registrar Franquicia</a>
       </div>
-      <div class="navibar-item">
-        <a href="#">Algo</a>
-      </div>
+    </div>
   </div>
 
   <body>
