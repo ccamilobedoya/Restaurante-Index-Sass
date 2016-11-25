@@ -32,6 +32,30 @@
       @include transition(width 0.4s, height 0.4s);
     }
   }
+
+  .dropdown {
+    a {
+      text-decoration: none;
+      color: $p2c1 !important;
+      font-size: 1.2em !important;
+      @include transition(color 0.4s, font-size 0.4s);
+      &:hover {
+        color: $p2c2 !important;
+      }
+      &:link {color:#ff0000;text-decoration:none;}
+      &:visited {color:#0000ff;text-decoration:none;}
+    }
+    .dropdown-menu {
+      background-color: rgba($p2c1, 0.1);
+      border: 0;
+      
+      .dropdown-item {
+        &:hover {
+          background-color: rgba($p2c4, 0.1);
+        }
+      }
+    }
+  }
 }
 .navibar-small {
   height: 50px;
@@ -46,11 +70,11 @@
     padding: 15px;
 
     a {
-      text-decoration: none;
-      color: $p2c5;
-      font-size: 1em;
+      text-decoration: none !important;
+      color: $p2c5 !important;
+      font-size: 1em !important;
       &:hover {
-        color: $p2c4;
+        color: $p2c4 !important;
       }
     }
     .logo {
@@ -58,4 +82,14 @@
       padding: 5px;
     }
   }
+  .dropdown {
+      .dropdown-menu {
+      background-color: rgba($p2c1, 0.7);
+      @include transition(background-color 0.4s);
+    }
+  }
 }
+
+
+
+
