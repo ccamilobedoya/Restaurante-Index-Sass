@@ -46,12 +46,12 @@
       &:visited {color:#0000ff;text-decoration:none;}
     }
     .dropdown-menu {
-      background-color: rgba($p2c1, 0.1);
+      background-color: rgba($p2c5, 0.85);
       border: 0;
       
       .dropdown-item {
         &:hover {
-          background-color: rgba($p2c4, 0.1);
+          background-color: rgba($p2c4, 0.3);
         }
       }
     }
